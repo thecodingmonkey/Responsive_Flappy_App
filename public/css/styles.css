@@ -20,6 +20,19 @@ div.top_header {
 /*  border: 7px solid pink;
 */}
 
+div.logo {
+  float:left;
+}
+
+.logo_img {
+  background-image: url('/images/logo.png');
+  background-repeat: no-repeat;
+  background-size: 80px 50px;
+  display: inline-block;
+  width: 80px;
+  height: 50px;
+}
+
 .logo_flappy {
   text-transform: uppercase;
   color: teal;
@@ -27,6 +40,26 @@ div.top_header {
 
 .logo_app {
   text-transform: uppercase;
+  color: white;
+}
+
+
+
+.top_items ul {
+  display: inline;
+  text-transform: uppercase;
+
+  color: #1ACAC8;
+}
+
+.top_items li {
+  padding-right: 20px;
+  line-height: 50px;
+  vertical-align: middle;
+  font-size: 16px;
+}
+
+.top_items li:hover {
   color: white;
 }
 
@@ -42,8 +75,8 @@ div.top_header {
 
 .feature_title {
   color: #1ACAC8;
-  background-color: black;
   height: 48px;
+  background-color: #25262C;
   line-height: 48px;
   vertical-align: middle;  
 }
@@ -74,7 +107,7 @@ div.top_header {
   background-image: url('/images/border.png');
   background-repeat: repeat-x;
   background-position: top;
-  
+
   text-transform: uppercase;
   padding-top: 30px;
 }
@@ -84,18 +117,31 @@ div.top_header {
   line-height: 30px;
 }
 
+.screenshot {
+  display: block;
+  background-color: red;
+  background-repeat: no-repeat;
+  background-image: url('/images/scenery.png');
+  width: 100%;
+  height: 266px;
+  background-position: right
+}
+
 div.left_menu {
   float: left;
   padding-left: 30px;
 }
 
 div.center_menu {
+/*  width: 250px;
+  margin: 0 auto; */
+
   float: left;
-
   position: relative;
-  right: -50%;
-  text-align: left;
+  left: 33%;
 
+  /*display: inline-block;*/
+  /*display: float;*/
 }
 
 div.right_menu {
@@ -112,11 +158,16 @@ div.right_menu {
 
 
 @media screen and (max-width: 640px) {
-  .top_nav {
+  div.top_header {
     border-image: url('/images/border.png') 20 0 0 0 stretch stretch;
 
     /* put a line at the top*/
   }
+
+  div.top_nav {
+    height: 55px;
+  }
+
 
   .logo {
     width: 300px;
@@ -127,9 +178,6 @@ div.right_menu {
   .logo_img {
     width: 80px;
     height: 50px;
-    background-image: url('/images/logo.png');
-    background-repeat: no-repeat;
-    background-size: 80px 50px;
     display: inline-block;
   }
 
@@ -160,20 +208,18 @@ div.right_menu {
     letter-spacing: 3px;
   }
 
+  div.top_btn {
+    float:right;
+    font-size: 40px;
+    color: #1ACAC8;
+    padding-right: 20px;
+  }
+
   .top_items {
     display: none;
   }
 
-  .screenshot {
-    display: block;
-    background-color: red;
-    background-repeat: no-repeat;
-    background-image: url('/images/scenery.png');
-    width: 100%;
-    height: 266px;
-    background-position: right
-  }
-  
+ 
   .center_menu {
     display: none;
   }
@@ -181,6 +227,46 @@ div.right_menu {
 }
 
 @media screen and (min-width: 641px) and (max-width: 1000px) {
+  body {
+/*    background-color: red;
+*/  }
+
+  div.top_header {
+    height: 50px;
+    padding-top: 40px;
+    padding-bottom: 45px;
+  }
+
+  div.logo {
+    float:left;
+  }
+
+  div.logo_flappy {
+    position: relative;
+    left: 90px;
+    top: -51px;
+    letter-spacing: 3px;
+    color: #39C1C1;
+  }
+
+  div.logo_app {
+    position: relative;
+    left: 90px;
+    top: -49px;
+    letter-spacing: 3px;
+  }
+
+  div.top_menu {
+    float: right;
+  }
+
+  .top_items li {
+    display: inline;
+  }
+
+  div.top_btn {
+    display: none;
+  }
 
 }
 
