@@ -1,0 +1,189 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900);
+
+html {
+  font-family: 'Lato', sans-serif;
+}
+
+body {
+  background-color: #25262C;
+  color: white;
+  font-size: 18px;
+  display: block;
+}
+
+div.top_header {
+  background-image: url('/images/border.png');
+  background-repeat: repeat-x;
+  background-position: top;
+
+  padding-top: 15px;
+/*  border: 7px solid pink;
+*/}
+
+.logo_flappy {
+  text-transform: uppercase;
+  color: teal;
+} 
+
+.logo_app {
+  text-transform: uppercase;
+  color: white;
+}
+
+.feature_list {
+  text-transform: uppercase;
+  color: black;
+/*  line-height: 40px;
+  height: 40px;
+*/  text-align: center;
+  font-size: 16px
+  ;
+}
+
+.feature_title {
+  color: #1ACAC8;
+  background-color: black;
+  height: 48px;
+  line-height: 48px;
+  vertical-align: middle;  
+}
+
+.feature_emphasize {
+  color: white;
+}
+
+.feature_item {
+  background-color: #1ACAC8;
+  border-bottom: black solid 1px;
+  line-height: 50px;
+}
+
+.content {
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  font-size: 24px;
+  padding-top: 24px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  line-height: 32px;
+}
+
+.bottom_footer {
+  background-image: url('/images/border.png');
+  background-repeat: repeat-x;
+  background-position: top;
+  
+  text-transform: uppercase;
+  padding-top: 30px;
+}
+
+.left_menu li, .center_menu li, .right_menu li {
+  color: #1ACAC8;
+  line-height: 30px;
+}
+
+div.left_menu {
+  float: left;
+  padding-left: 30px;
+}
+
+div.center_menu {
+  float: left;
+
+  position: relative;
+  right: -50%;
+  text-align: left;
+
+}
+
+div.right_menu {
+  float: right;
+  padding-right: 30px;
+}
+
+.copyright {
+  padding-top: 200px;
+  padding-bottom: 30px;
+  text-align: center;
+  font-size: 14px;
+}
+
+
+@media screen and (max-width: 640px) {
+  .top_nav {
+    border-image: url('/images/border.png') 20 0 0 0 stretch stretch;
+
+    /* put a line at the top*/
+  }
+
+  .logo {
+    width: 300px;
+    height: 50px;
+    display: inline-block;
+  }
+  
+  .logo_img {
+    width: 80px;
+    height: 50px;
+    background-image: url('/images/logo.png');
+    background-repeat: no-repeat;
+    background-size: 80px 50px;
+    display: inline-block;
+  }
+
+  .logo_flappy {
+    display: inline-block;
+    width: 80px;
+    height: 50px;
+    font-size: 18px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    line-height: 50px;
+    vertical-align: top;
+    color: #1ACAC8;
+    letter-spacing: 3px;
+  }
+
+  .logo_app {
+/*    background-color: green;
+*/    width: 50px;
+    height: 50px;
+    display: inline-block;
+    font-size: 18px;
+    padding-top: 0px;
+    line-height: 50px;
+    vertical-align: top;
+    color: white;
+    letter-spacing: 3px;
+  }
+
+  .top_items {
+    display: none;
+  }
+
+  .screenshot {
+    display: block;
+    background-color: red;
+    background-repeat: no-repeat;
+    background-image: url('/images/scenery.png');
+    width: 100%;
+    height: 266px;
+    background-position: right
+  }
+  
+  .center_menu {
+    display: none;
+  }
+
+}
+
+@media screen and (min-width: 641px) and (max-width: 1000px) {
+
+}
+
+@media screen and (min-width: 1001px) {
+
+}
