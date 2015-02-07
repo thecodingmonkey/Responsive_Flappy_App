@@ -271,5 +271,47 @@ div.right_menu {
 }
 
 @media screen and (min-width: 1001px) {
+  div.top_header {
+    height: 50px;
+    padding-top: 40px;
+    padding-bottom: 45px;
+  }
 
+  div.logo_img {
+    width: 128px;
+    height: 80px;
+    display: inline-block;
+    background-size: 128px 80px;
+    position: absolute;
+    left: 260px;
+    top: 30px;
+  }
+
+  div.logo_flappy {
+    font-size: 50px;
+    color: #1ACAC8;
+    position: absolute;
+    left: 50px;
+    letter-spacing: 5px;
+  }
+
+  div.logo_app {
+    font-size: 50px;
+    color: #1ACAC8;
+    position: absolute;
+    left: 350px;
+    letter-spacing: 5px;
+  }
+
+  div.top_menu {
+    float: right;
+  }
+  
+  div.top_btn {
+    display: none;
+  }
+
+  .top_items li {
+    display: inline;
+  }
 }
