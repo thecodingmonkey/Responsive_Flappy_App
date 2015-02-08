@@ -48,7 +48,6 @@ div.logo {
 .top_items ul {
   display: inline;
   text-transform: uppercase;
-
   color: #1ACAC8;
 }
 
@@ -119,12 +118,13 @@ div.logo {
 
 .screenshot {
   display: block;
-  background-color: red;
+  /*background-color: red;*/
   background-repeat: no-repeat;
   background-image: url('/images/scenery.png');
   width: 100%;
   height: 266px;
-  background-position: right
+  background-position: right;
+  max-width: 734px;
 }
 
 div.left_menu {
@@ -285,6 +285,8 @@ div.right_menu {
     position: absolute;
     left: 260px;
     top: 30px;
+
+    z-index: 1;
   }
 
   div.logo_flappy {
@@ -307,11 +309,40 @@ div.right_menu {
     float: right;
   }
   
+  .top_items li {
+    padding-bottom: 5px;
+    border-bottom: 5px solid teal;
+  }
+
+  .top_items li:hover {
+    padding-bottom: 5px;
+    border-bottom: 5px solid white;    
+  }
+
   div.top_btn {
     display: none;
   }
 
   .top_items li {
     display: inline;
+  }
+
+  .attract_blurb {
+    background-color: white;
+  }
+
+  div.attract_blurb {
+    height: 400px;
+    margin: 25px;
+  }
+
+  .screenshot {
+    border: 5px solid black;
+    /*margin: 25px;*/
+    float:left;
+  }
+
+  div.feature_list {
+    float: right;
   }
 }
