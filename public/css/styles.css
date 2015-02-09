@@ -1,5 +1,13 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900);
 
+.clearfix:after {
+   content: " "; /* Older browser do not support empty content */
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
+
 html {
   font-family: 'Lato', sans-serif;
 }
@@ -352,11 +360,15 @@ div.right_menu {
   .screenshot {
     border: 5px solid black;
     /*margin: 25px;*/
+    width: 100%;
+    /*min-width: 500px;*/
     float:left;
+    box-sizing:border-box;
   }
 
   div.feature_list {
     float: right;
+    box-sizing:border-box;
   }
 
   .content {
@@ -374,6 +386,12 @@ div.right_menu {
     max-width: 1200px;
     margin: 0 auto;
   }
+
+  .left_menu li, .center_menu ul, .right_menu ul {
+    border-left: 5px solid teal;
+    padding-left: 15px;
+  }
+
 }
 
 /* only for bigger screens*/ 
