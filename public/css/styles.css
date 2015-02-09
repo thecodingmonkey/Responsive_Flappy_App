@@ -147,7 +147,7 @@ div.center_menu {
 
   float: left;
   position: relative;
-  left: 33%;
+  /*left: 33%;*/
 
   /*display: inline-block;*/
   /*display: float;*/
@@ -405,5 +405,17 @@ div.right_menu {
   .left_menu li:hover, .center_menu li:hover, .right_menu li:hover {
   color: #fff;
   /*line-height: 30px;*/
+  }
+
+  div.left_menu {
+    width: 20%;
+  }
+
+  div.center_menu {
+    width: 40%;
+  }
+
+  div.right_menu {
+    width: 30%;
   }
 }
