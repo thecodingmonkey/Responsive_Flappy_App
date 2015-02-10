@@ -24,11 +24,8 @@ body {
 }
 
 div.top_header {
-
-
   padding-top: 15px;
-/*  border: 7px solid pink;
-*/}
+}
 
 div.logo {
   float:left;
@@ -45,15 +42,19 @@ div.logo {
 
 .logo_flappy {
   text-transform: uppercase;
+  font-size: 18px;
+  font-weight: bold;
+
   color: #39C1C1;
 } 
 
 .logo_app {
   text-transform: uppercase;
+  font-size: 18px;
+  font-weight: bold;
+
   color: white;
 }
-
-
 
 .top_items ul {
   display: inline;
@@ -75,9 +76,8 @@ div.logo {
 .feature_list {
   text-transform: uppercase;
   color: black;
-/*  line-height: 40px;
-  height: 40px;
-*/  text-align: center;
+
+  text-align: center;
   font-size: 15px;
   letter-spacing: 2px;
 }
@@ -133,14 +133,12 @@ div.logo {
 
 .screenshot {
   display: block;
-  /*background-color: red;*/
-  /*background-repeat: no-repeat;*/
+
   background-repeat: repeat-x;
   background-image: url('/images/scenery.png');
   width: 100%;
   height: 256px;
   background-position: right;
-  /*max-width: 734px;*/
 }
 
 div.left_menu {
@@ -149,15 +147,8 @@ div.left_menu {
 }
 
 div.center_menu {
-/*  width: 250px;
-  margin: 0 auto; */
-
   float: left;
   position: relative;
-  /*left: 33%;*/
-
-  /*display: inline-block;*/
-  /*display: float;*/
 }
 
 div.right_menu {
@@ -195,7 +186,6 @@ div.right_menu {
   .logo_img {
     width: 80px;
     height: 50px;
-    display: inline-block;
   }
 
   .logo_flappy {
@@ -210,6 +200,10 @@ div.right_menu {
     vertical-align: top;
     color: #1ACAC8;
     letter-spacing: 3px;
+
+    position: relative;
+    left: 5px;
+
   }
 
   .logo_app {
@@ -222,7 +216,10 @@ div.right_menu {
     line-height: 50px;
     vertical-align: top;
     color: white;
-    letter-spacing: 3px;
+    letter-spacing: 4px;
+
+    position: relative;
+    left: 8px;
   }
 
   div.top_btn {
@@ -236,17 +233,31 @@ div.right_menu {
     display: none;
   }
 
- 
   .center_menu {
     display: none;
+  }
+
+  div.screenshot {
+    height: 265px;
+  }
+
+  li.feature_title {
+    height: 48px;
+  }
+
+  li.feature_item {
+    height: 54px;
+  }
+
+  .copyright {
+    padding-top: 50px;
+    letter-spacing: 2px;
+    font-size: 14px;
   }
 
 }
 
 @media screen and (min-width: 641px) and (max-width: 1000px) {
-  body {
-/*    background-color: red;
-*/  }
 
   div.top_header {
     height: 50px;
@@ -284,7 +295,6 @@ div.right_menu {
   div.top_btn {
     display: none;
   }
-
 }
 
 @media screen and (min-width: 1001px) {
@@ -398,11 +408,7 @@ div.right_menu {
     position:relative;
     left: -20%;
     margin-right: -20%;
-    /*float:left;*/
-/*    position: relative;
-    left: -150px;
-    margin-right: -150px;
-*/  }
+  }
 
   div.feature_list {
     float: right;
@@ -411,11 +417,6 @@ div.right_menu {
 
     box-sizing:border-box;
   }
-
-  .content {
-    /*padding-top: 275px;*/
-/*    background-color: red;
-*/  }
 
   div.body_wrapper {
     width: 100%;
@@ -445,7 +446,6 @@ div.right_menu {
   }
 
   .page_content {
-    /*max-width: 1100px;*/
     margin: 0 auto;
     display: block;
   }
