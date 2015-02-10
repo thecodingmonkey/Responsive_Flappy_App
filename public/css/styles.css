@@ -80,6 +80,8 @@ div.logo {
   text-align: center;
   font-size: 15px;
   letter-spacing: 2px;
+
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, .2);
 }
 
 .feature_title {
@@ -99,7 +101,7 @@ div.logo {
 .feature_item {
   background-color: #1ACAC8;
   border-bottom: black solid 1px;
-  line-height: 50px;
+  line-height: 53px;
   font-weight: bold;
 
 }
@@ -139,6 +141,8 @@ div.logo {
   width: 100%;
   height: 256px;
   background-position: right;
+
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, .2);
 }
 
 div.left_menu {
