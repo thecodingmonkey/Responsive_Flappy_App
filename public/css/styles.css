@@ -417,6 +417,11 @@ div.right_menu {
 /*    background-color: red;
 */  }
 
+  div.body_wrapper {
+    width: 100%;
+    background-color: white;
+  }
+
   div.attract_blurb {
     max-width: 1050px;
     padding-left: 25px;
