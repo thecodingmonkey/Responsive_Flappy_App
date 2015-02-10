@@ -13,6 +13,10 @@ html {
 }
 
 body {
+  background-image: url('/images/border.png');
+  background-repeat: repeat-x;
+  background-position: top;
+
   background-color: #25262C;
   color: white;
   font-size: 15px;
@@ -20,9 +24,7 @@ body {
 }
 
 div.top_header {
-  background-image: url('/images/border.png');
-  background-repeat: repeat-x;
-  background-position: top;
+
 
   padding-top: 15px;
 /*  border: 7px solid pink;
@@ -166,7 +168,7 @@ div.right_menu {
 .copyright {
   font-size: 16px;
   font-weight: bold;
-  
+
   padding-top: 30px;
   padding-bottom: 30px;
   text-align: center;
@@ -444,6 +446,10 @@ div.right_menu {
   }
 
   .bottom_footer {
+    margin: 0 auto;
+  }
+
+  .bottom_menu {
     max-width: 1100px;
     margin: 0 auto;
     padding-bottom: 50px;
