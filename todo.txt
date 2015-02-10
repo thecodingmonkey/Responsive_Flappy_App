@@ -1,2 +1,1 @@
-  make border lines stretch entire screen
   shadows
