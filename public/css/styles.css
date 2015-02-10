@@ -167,7 +167,6 @@ div.right_menu {
   padding-top: 30px;
   padding-bottom: 30px;
   text-align: center;
-  /*font-size: 14px;*/
 }
 
 
@@ -211,7 +210,6 @@ div.right_menu {
   }
 
   .logo_app {
-    /*background-color: green;*/
     width: 50px;
     height: 50px;
     display: inline-block;
@@ -348,9 +346,7 @@ div.right_menu {
   div.top_menu {
     float: right;
     padding-right: 50px;
-    /*border-bottom: 5px solid #39C1C1;*/
   }
-  
 
   .top_items li {
     display: inline-block;
@@ -400,7 +396,6 @@ div.right_menu {
   }
 
   .feature_list {
-    /*min-width: 330px;*/
     min-width: 33%;
   }
 
