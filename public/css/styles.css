@@ -402,7 +402,7 @@ div.right_menu {
   .screenshot {
     border: 5px solid black;
     width: 550px;
-    min-width: 60%;
+    min-width: 62%;
     float:left;
     position:relative;
     left: -20%;
@@ -412,7 +412,7 @@ div.right_menu {
   div.feature_list {
     float: right;
     position: relative;
-    right: 25px;
+    /*right: 25px;*/
 
     box-sizing:border-box;
   }
