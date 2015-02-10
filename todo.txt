@@ -1,0 +1,5 @@
+fix font
+fix line on top menu nav
+make border lines stretch entire screen
+make screenshot scale on large screens
+add shadows

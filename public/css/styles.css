@@ -15,7 +15,7 @@ html {
 body {
   background-color: #25262C;
   color: white;
-  font-size: 18px;
+  font-size: 15px;
   display: block;
 }
 
@@ -76,8 +76,8 @@ div.logo {
 /*  line-height: 40px;
   height: 40px;
 */  text-align: center;
-  font-size: 16px
-  ;
+  font-size: 15px;
+  letter-spacing: 2px;
 }
 
 .feature_title {
@@ -86,6 +86,8 @@ div.logo {
   background-color: #25262C;
   line-height: 48px;
   vertical-align: middle;  
+  font-size: 15px;
+  letter-spacing: 2px;
 }
 
 .feature_emphasize {
@@ -96,6 +98,8 @@ div.logo {
   background-color: #1ACAC8;
   border-bottom: black solid 1px;
   line-height: 50px;
+  font-weight: bold;
+
 }
 
 .content {
@@ -121,7 +125,8 @@ div.logo {
 
 .left_menu li, .center_menu li, .right_menu li {
   color: #1ACAC8;
-  line-height: 30px;
+  line-height: 32px;
+  letter-spacing: 2px
 }
 
 .screenshot {
@@ -381,7 +386,6 @@ div.right_menu {
 
   div.feature_list {
     float: right;
-    width: 250px;
     box-sizing:border-box;
   }
 
