@@ -371,6 +371,7 @@ div.right_menu {
     float:left;
     position: relative;
     left: -150px;
+    margin-right: -150px;
     /*width: auto;*/
 /*    padding: 0;
     margin: 0;*/
