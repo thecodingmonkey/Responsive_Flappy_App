@@ -13,7 +13,7 @@ html {
 }
 
 body {
-  background-image: url('./images/border.png');
+  background-image: url('./../images/border.png');
   background-repeat: repeat-x;
   background-position: top;
 
@@ -32,7 +32,7 @@ div.logo {
 }
 
 .logo_img {
-  background-image: url('./images/logo.png');
+  background-image: url('./../images/logo.png');
   background-repeat: no-repeat;
   background-size: 80px 50px;
   display: inline-block;
@@ -119,7 +119,7 @@ div.logo {
 }
 
 .bottom_footer {
-  background-image: url('./images/border.png');
+  background-image: url('./../images/border.png');
   background-repeat: repeat-x;
   background-position: top;
 
@@ -137,7 +137,7 @@ div.logo {
   display: block;
 
   background-repeat: repeat-x;
-  background-image: url('./images/scenery.png');
+  background-image: url('./../images/scenery.png');
   width: 100%;
   height: 256px;
   background-position: right;
@@ -172,7 +172,7 @@ div.right_menu {
 
 @media screen and (max-width: 640px) {
   div.top_header {
-    border-image: url('./images/border.png') 20 0 0 0 stretch stretch;
+    border-image: url('./../images/border.png') 20 0 0 0 stretch stretch;
   }
 
   div.top_nav {
